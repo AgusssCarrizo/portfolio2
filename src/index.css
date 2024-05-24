@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+    @apply  text-white text-lg font-bold py-2 px-4 rounded flex gap-3 items-center  w-36 justify-center bg-black   ;
+  }
+  .skills {
+   @apply bg-white/20 font-garamond font-light w-20 flex items-center justify-center rounded text-white text-2xl px-14;
+  }
+  .skills-soft {
+    @apply bg-white/20 font-garamond font-light w-auto flex items-center justify-center rounded text-white text-2xl px-5;
+   }
+   .li{
+      @apply flex gap-2 items-center mx-2;
+   }
+}
